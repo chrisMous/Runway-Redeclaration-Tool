@@ -1,0 +1,35 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Airports">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Airport" maxOccurs="unbounded" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:string" name="ICAO"/>
+                            <xs:element type="xs:string" name="name"/>
+                            <xs:element name="Runways">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Runway" maxOccurs="unbounded" minOccurs="0">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="designator"/>
+                                                    <xs:element type="xs:short" name="TORA"/>
+                                                    <xs:element type="xs:short" name="TODA"/>
+                                                    <xs:element type="xs:short" name="ASDA"/>
+                                                    <xs:element type="xs:short" name="LDA"/>
+                                                    <xs:element type="xs:short" name="displaced"/>
+                                                </xs:sequence>
+                                                <xs:attribute type="xs:string" name="physicalRunway" use="optional"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="1086.0" prefWidth="717.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox layoutX="14.0" layoutY="14.0" prefHeight="46.0" prefWidth="703.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="New Runway Allocator">
+               <font>
+                  <Font name="Segoe UI Semibold Italic" size="25.0" />
+               </font>
+            </Text>
+            <Button mnemonicParsing="false" text="Go Back">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="320.0" top="5.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <ImageView fitHeight="216.0" fitWidth="843.0" layoutX="14.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../style/RunwayPicture.png" />
+         </image>
+      </ImageView>
+      <VBox layoutX="14.0" layoutY="277.0" prefHeight="267.0" prefWidth="348.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Add Runway Parameters without Obstacle (Standard Units)">
+               <font>
+                  <Font name="Segoe UI Semilight" size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Text>
+            <HBox prefHeight="48.0" prefWidth="454.0">
+               <VBox.margin>
+                  <Insets bottom="15.0" top="15.0" />
+               </VBox.margin>
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Left Runway">
+                     <HBox.margin>
+                        <Insets bottom="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Segoe UI Semilight" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Heading">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Segoe UI Semilight" size="15.0" />
+                     </font>
+                  </Text>
+                  <TextField prefHeight="26.0" prefWidth="62.0">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox prefHeight="54.0" prefWidth="454.0">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <padding>
+                  <Insets bottom="10.0" top="10.0" />
+               </padding>
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Take Off Run Available (TORA)">
+                     <font>
+                        <Font name="Segoe UI Semilight" size="15.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                  </Text>
+                  <TextField prefHeight="26.0" prefWidth="62.0">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="100.0" right="10.0" top="9.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox prefHeight="54.0" prefWidth="454.0">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <padding>
+                  <Insets bottom="10.0" top="10.0" />
+               </padding>
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Take Off Distance Available (TODA)">
+                     <font>
+                        <Font name="Segoe UI Semilight" size="15.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                  </Text>
+                  <TextField prefHeight="26.0" prefWidth="62.0">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="70.0" right="10.0" top="9.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox prefHeight="54.0" prefWidth="454.0">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <padding>
+                  <Insets bottom="10.0" top="10.0" />
+               </padding>
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Accelerate Stop Distance Available (ASDA)">
+                     <font>
+                        <Font name="Segoe UI Semilight" size="15.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                  </Text>
+                  <TextField prefHeight="26.0" prefWidth="62.0">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="25.0" right="10.0" top="9.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox prefHeight="54.0" prefWidth="454.0">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <padding>
+                  <Insets bottom="10.0" top="10.0" />
+               </padding>
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Landing Distance Available (LDA)">
+                     <font>
+                        <Font name="Segoe UI Semilight" size="15.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                  </Text>
+                  <TextField prefHeight="26.0" prefWidth="62.0">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="82.0" right="10.0" top="9.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox prefHeight="54.0" prefWidth="454.0">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <padding>
+                  <Insets bottom="10.0" top="10.0" />
+               </padding>
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Displaced Threshold">
+                     <font>
+                        <Font name="Segoe UI Semilight" size="15.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                  </Text>
+                  <TextField prefHeight="26.0" prefWidth="62.0">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="165.0" right="10.0" top="9.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <VBox layoutX="24.0" layoutY="738.0" prefHeight="406.0" prefWidth="443.0">
+         <children>
+            <HBox prefHeight="48.0" prefWidth="454.0">
+               <VBox.margin>
+                  <Insets bottom="15.0" top="15.0" />
+               </VBox.margin>
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Right Runway">
+                     <HBox.margin>
+                        <Insets bottom="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Segoe UI Semilight" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Heading">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Segoe UI Semilight" size="15.0" />
+                     </font>
+                  </Text>
+                  <TextField prefHeight="26.0" prefWidth="62.0">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox prefHeight="54.0" prefWidth="454.0">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <padding>
+                  <Insets bottom="10.0" top="10.0" />
+               </padding>
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Take Off Run Available (TORA)">
+                     <font>
+                        <Font name="Segoe UI Semilight" size="15.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                  </Text>
+                  <TextField prefHeight="26.0" prefWidth="62.0">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="100.0" right="10.0" top="9.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox prefHeight="54.0" prefWidth="454.0">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <padding>
+                  <Insets bottom="10.0" top="10.0" />
+               </padding>
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Take Off Distance Available (TODA)">
+                     <font>
+                        <Font name="Segoe UI Semilight" size="15.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                  </Text>
+                  <TextField prefHeight="26.0" prefWidth="62.0">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="70.0" right="10.0" top="9.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox prefHeight="54.0" prefWidth="454.0">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <padding>
+                  <Insets bottom="10.0" top="10.0" />
+               </padding>
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Accelerate Stop Distance Available (ASDA)">
+                     <font>
+                        <Font name="Segoe UI Semilight" size="15.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                  </Text>
+                  <TextField prefHeight="26.0" prefWidth="62.0">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="25.0" right="10.0" top="9.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox prefHeight="54.0" prefWidth="454.0">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <padding>
+                  <Insets bottom="10.0" top="10.0" />
+               </padding>
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Landing Distance Available (LDA)">
+                     <font>
+                        <Font name="Segoe UI Semilight" size="15.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                  </Text>
+                  <TextField prefHeight="26.0" prefWidth="62.0">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="82.0" right="10.0" top="9.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox prefHeight="54.0" prefWidth="454.0">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <padding>
+                  <Insets bottom="10.0" top="10.0" />
+               </padding>
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Displaced Threshold">
+                     <font>
+                        <Font name="Segoe UI Semilight" size="15.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                  </Text>
+                  <TextField prefHeight="26.0" prefWidth="62.0">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="165.0" right="10.0" top="9.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <VBox layoutX="468.0" layoutY="373.0" prefHeight="301.0" prefWidth="246.0">
+         <children>
+            <Button mnemonicParsing="false" text="Check Runway Configuration">
+               <font>
+                  <Font name="Segoe UI Semibold" size="15.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+            </Button>
+            <TextArea prefHeight="200.0" prefWidth="200.0" promptText="Output" />
+            <Button mnemonicParsing="false" text="Save Runway">
+               <font>
+                  <Font name="Segoe UI Semibold" size="15.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+      <HBox layoutX="468.0" layoutY="322.0" prefHeight="66.0" prefWidth="246.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Airport Identifier">
+               <font>
+                  <Font name="Segoe UI Semilight" size="15.0" />
+               </font>
+               <HBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </HBox.margin>
+            </Text>
+            <TextField prefHeight="26.0" prefWidth="62.0">
+               <HBox.margin>
+                  <Insets bottom="10.0" left="35.0" right="10.0" top="10.0" />
+               </HBox.margin>
+            </TextField>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

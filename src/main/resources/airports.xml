@@ -1,0 +1,88 @@
+<Airports>
+    <Airport>
+        <ICAO>EGLL</ICAO>
+        <name>LONDON HEATHROW</name>
+        <Runways>
+            <Runway physicalRunway="A">
+                <designator>09L</designator>
+                <TORA>3901</TORA>
+                <TODA>3901</TODA>
+                <ASDA>3901</ASDA>
+                <LDA>3592</LDA>
+                <displaced>309</displaced>
+            </Runway>
+
+            <Runway physicalRunway="A">
+                <designator>27R</designator>
+                <TORA>3882</TORA>
+                <TODA>3960</TODA>
+                <ASDA>3882</ASDA>
+                <LDA>3882</LDA>
+                <displaced>0</displaced>
+            </Runway>
+
+            <Runway physicalRunway="B">
+                <designator>09R</designator>
+                <TORA>3658</TORA>
+                <TODA>3658</TODA>
+                <ASDA>3658</ASDA>
+                <LDA>3350</LDA>
+                <displaced>308</displaced>
+            </Runway>
+
+            <Runway physicalRunway="B">
+                <designator>27L</designator>
+                <TORA>3658</TORA>
+                <TODA>3658</TODA>
+                <ASDA>3658</ASDA>
+                <LDA>3658</LDA>
+                <displaced>0</displaced>
+            </Runway>
+
+        </Runways>
+    </Airport>
+
+    <Airport>
+        <ICAO>EGKK</ICAO>
+        <name>LONDON GATWICK</name>
+        <Runways>
+            <Runway physicalRunway="A">
+                <designator>08R</designator>
+                <TORA>3159</TORA>
+                <TODA>3311</TODA>
+                <ASDA>3233</ASDA>
+                <LDA>2765</LDA>
+                <displaced>0</displaced>
+            </Runway>
+
+            <Runway physicalRunway="A">
+                <designator>26L</designator>
+                <TORA>3255</TORA>
+                <TODA>3399</TODA>
+                <ASDA>3317</ASDA>
+                <LDA>2830</LDA>
+                <displaced>0</displaced>
+            </Runway>
+
+            <Runway physicalRunway="B">
+                <designator>08L</designator>
+                <TORA>2561</TORA>
+                <TODA>3040</TODA>
+                <ASDA>2561</ASDA>
+                <LDA>2241</LDA>
+                <displaced>0</displaced>
+            </Runway>
+
+            <Runway physicalRunway="B">
+                <designator>26R</designator>
+                <TORA>2515</TORA>
+                <TODA>2657</TODA>
+                <ASDA>2515</ASDA>
+                <LDA>2146</LDA>
+                <displaced>0</displaced>
+            </Runway>
+
+        </Runways>
+    </Airport>
+
+</Airports>

@@ -1,0 +1,505 @@
+<Obstacles>
+    <Aircraft>
+        <Obstruction>
+            <name>Airbus A321LR</name>
+            <length>44.51</length>
+            <width>35.80</width>
+            <height>11.76</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>Airbus A330-300</name>
+            <length>63.66</length>
+            <width>60.3</width>
+            <height>17.39</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>Airbus A220</name>
+            <length>38.71</length>
+            <width>35.10</width>
+            <height>11.5</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>Airbus A300</name>
+            <length>54.08</length>
+            <width>44.84</width>
+            <height>16.66</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>Airbus A310</name>
+            <length>46.66</length>
+            <width>43.9</width>
+            <height>15.8</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>Airbus A318</name>
+            <length>31.44</length>
+            <width>34.1</width>
+            <height>12.56</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>Airbus A340</name>
+            <length>74.77</length>
+            <width>63.45</width>
+            <height>22.87</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>Airbus A380</name>
+            <length>72.72</length>
+            <width>79.75</width>
+            <height>24.09</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>Airbus A350</name>
+            <length>73.79</length>
+            <width>64.75</width>
+            <height>17.08</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>Antonov An-148</name>
+            <length>29.13</length>
+            <width>28.92</width>
+            <height>8.19</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>Boeing 737</name>
+            <length>43.8</length>
+            <width>35.92</width>
+            <height>19.9</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>Boeing 767</name>
+            <length>61.37</length>
+            <width>51.92</width>
+            <height>15.85</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>Boeing 777</name>
+            <length>73.86</length>
+            <width>64.80</width>
+            <height>18.6</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>Boeing 787 Dreamliner</name>
+            <length>68.28</length>
+            <width>60.12</width>
+            <height>17.02</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>Boeing 727</name>
+            <length>46.68</length>
+            <width>32.92</width>
+            <height>10.65</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>Boeing 757</name>
+            <length>54.4</length>
+            <width>38.0</width>
+            <height>13.6</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>Boeing 717</name>
+            <length>37.80</length>
+            <width>28.45</width>
+            <height>9.04</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>Bombardier CRJ100/200</name>
+            <length>26.77</length>
+            <width>21.18</width>
+            <height>6.30</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>Bombardier CRJ700</name>
+            <length>39.1</length>
+            <width>26.2</width>
+            <height>7.6</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>British Aerospace 146</name>
+            <length>31.0</length>
+            <width>26.34</width>
+            <height>8.61</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>Comac ARJ21</name>
+            <length>36.35</length>
+            <width>27.28</width>
+            <height>8.44</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>Comac C919</name>
+            <length>38.9</length>
+            <width>35.8</width>
+            <height>11.95</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>CRAIC CR929</name>
+            <length>63.76</length>
+            <width>63.86</width>
+            <height>17.9</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>Douglas DC-8</name>
+            <length>57.1</length>
+            <width>45.2</width>
+            <height>13.45</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>Embrarer E-Jet</name>
+            <length>38.66</length>
+            <width>28.73</width>
+            <height>17.39</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>Embrarer ERJ</name>
+            <length>29.87</length>
+            <width>20.04</width>
+            <height>6.76</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>Fairchild Dornier 328JET</name>
+            <length>21.11</length>
+            <width>20.98</width>
+            <height>7.24</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>Fokker 100</name>
+            <length>35.53</length>
+            <width>28.08</width>
+            <height>8.50</height>
+        </Obstruction>
+
+
+        <Obstruction>
+            <name>Ilyushin Il-96</name>
+            <length>64.69</length>
+            <width>60.12</width>
+            <height>17.55</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>Ilyushin Il-62</name>
+            <length>53.12</length>
+            <width>43.20</width>
+            <height>12.35</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>Irkut MC-21</name>
+            <length>42.2</length>
+            <width>35.9</width>
+            <height>11.5</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>McDonnell Douglas DC-9</name>
+            <length>40.72</length>
+            <width>28.45</width>
+            <height>8.8</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>McDonnell Douglas MD-80</name>
+            <length>45.06</length>
+            <width>32.82</width>
+            <height>9.25</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>McDonnell Douglas DC-10</name>
+            <length>55.55</length>
+            <width>50.39</width>
+            <height>17.55</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>McDonnell Douglas MD-11</name>
+            <length>61.6</length>
+            <width>51.97</width>
+            <height>17.65</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>Mistibushi Space-Jet</name>
+            <length>35.8</length>
+            <width>29.2</width>
+            <height>10.4</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>Tupolev Tu-204</name>
+            <length>46.14</length>
+            <width>41.8</width>
+            <height>13.9</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>Tupolev Tu-134</name>
+            <length>37.1</length>
+            <width>29.01</width>
+            <height>9.02</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>Tupolev Tu-154</name>
+            <length>48.0</length>
+            <width>37.55</width>
+            <height>11.4</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>Yakovlev Yak-40</name>
+            <length>20.36</length>
+            <width>25.0</width>
+            <height>6.5</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>Yakovlev Yak-40</name>
+            <length>20.36</length>
+            <width>25.0</width>
+            <height>6.5</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>Yakovlev Yak-42</name>
+            <length>36.38</length>
+            <width>34.88</width>
+            <height>9.83</height>
+        </Obstruction>
+    </Aircraft>
+    <Vehicle>
+        <Obstruction>
+            <name>Dolly</name>
+            <length>1.04</length>
+            <width>0.66</width>
+            <height>0.97</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>Chock</name>
+            <length>0.4</length>
+            <width>0.4</width>
+            <height>0.3</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>Aircraft Tripod Jack</name>
+            <length>2.0</length>
+            <width>2.0</width>
+            <height>4.94</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>Aircraft Service Stairs</name>
+            <length>7.85</length>
+            <width>2.36</width>
+            <height>5.74</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>Refueler</name>
+            <length>11.68</length>
+            <width>2.69</width>
+            <height>2.03</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>Tug</name>
+            <length>5.37</length>
+            <width>2.26</width>
+            <height>2.03</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>Ground Power Unit</name>
+            <length>2.79</length>
+            <width>1.32</width>
+            <height>1.47</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>Bus</name>
+            <length>7.01</length>
+            <width>2.24</width>
+            <height>2.67</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>Container Loader</name>
+            <length>9.67</length>
+            <width>5.87</width>
+            <height>5.74</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>Air Start Unit</name>
+            <length>4.73</length>
+            <width>1.97</width>
+            <height>2.48</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>Water Truck</name>
+            <length>6.3</length>
+            <width>2.16</width>
+            <height>2.27</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>Lavatory Service Vehicle</name>
+            <length>6.4</length>
+            <width>2.16</width>
+            <height>2.14</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>Catering Vehicle</name>
+            <length>6.0</length>
+            <width>2.4</width>
+            <height>2.14</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>Belt Loader</name>
+            <length>8.02</length>
+            <width>2.06</width>
+            <height>2.04</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>Anti Ice Vehicle</name>
+            <length>8.0</length>
+            <width>2.4</width>
+            <height>14.0</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>Firetruck</name>
+            <length>10.5</length>
+            <width>2.3</width>
+            <height>2.05</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>Ambulance</name>
+            <length>6.69</length>
+            <width>2.12</width>
+            <height>2.68</height>
+        </Obstruction>
+    </Vehicle>
+    <Debris>
+        <Obstruction>
+            <name>XS Debris</name>
+            <length>1</length>
+            <width>1</width>
+            <height>1</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>S Debris</name>
+            <length>2</length>
+            <width>2</width>
+            <height>2</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>M Derbris</name>
+            <length>3</length>
+            <width>3</width>
+            <height>3</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>L Debris</name>
+            <length>4</length>
+            <width>4</width>
+            <height>4</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>XL Debris</name>
+            <length>5</length>
+            <width>5</width>
+            <height>5</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>XXL Debris</name>
+            <length>10</length>
+            <width>10</width>
+            <height>10</height>
+        </Obstruction>
+    </Debris>
+    
+    <DebrisScatter>
+        <Obstruction>
+            <name>XS Debris Scatter</name>
+            <length>1</length>
+            <width>1</width>
+            <height>2</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>S Debris Scatter</name>
+            <length>2.5</length>
+            <width>2.5</width>
+            <height>2</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>M Debris Scatter</name>
+            <length>5</length>
+            <width>5</width>
+            <height>2</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>L Debris Scatter</name>
+            <length>7.5</length>
+            <width>7.5</width>
+            <height>2</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>XL Debris Scatter</name>
+            <length>10</length>
+            <width>10</width>
+            <height>2</height>
+        </Obstruction>
+
+        <Obstruction>
+            <name>XXL Debris Scatter</name>
+            <length>20</length>
+            <width>20</width>
+            <height>2</height>
+        </Obstruction>
+    </DebrisScatter>
+</Obstacles>
